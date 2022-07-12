@@ -7,6 +7,7 @@
 #include "coins.h"
 
 void flip(float cns, int r);
+bool isNum(char *str);
 
 //use second command line argument as the number of coins being flipped
 int main(int argc, char **argv)
